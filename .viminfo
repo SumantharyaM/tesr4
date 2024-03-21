@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1711032250,,"wq"
+|2,0,1711032406,,"wq"
 :wNextq
 |2,0,1711032243,,"wNextq"
 
@@ -27,12 +27,22 @@
 # Registers:
 
 # File marks:
-'0  2  2  ~/file2.txt
-|4,48,2,2,1711032250,"~/file2.txt"
-'1  2  0  ~/file2.txt
-|4,49,2,0,1711030882,"~/file2.txt"
+'0  4  0  ~/file2.txt
+|4,48,4,0,1711032406,"~/file2.txt"
+'1  2  2  ~/file2.txt
+|4,49,2,2,1711032250,"~/file2.txt"
+'2  2  2  ~/file2.txt
+|4,50,2,2,1711032250,"~/file2.txt"
+'3  2  0  ~/file2.txt
+|4,51,2,0,1711030882,"~/file2.txt"
+'4  2  0  ~/file2.txt
+|4,52,2,0,1711030882,"~/file2.txt"
 
 # Jumplist (newest first):
+-'  4  0  ~/file2.txt
+|4,39,4,0,1711032406,"~/file2.txt"
+-'  2  2  ~/file2.txt
+|4,39,2,2,1711032396,"~/file2.txt"
 -'  2  2  ~/file2.txt
 |4,39,2,2,1711032250,"~/file2.txt"
 -'  2  0  ~/file2.txt
@@ -41,13 +51,16 @@
 |4,39,1,0,1711030724,"~/file2.txt"
 -'  1  0  ~/file2.txt
 |4,39,1,0,1711030724,"~/file2.txt"
+-'  1  0  ~/file2.txt
+|4,39,1,0,1711030724,"~/file2.txt"
 
 # History of marks within files (newest to oldest):
 
 > ~/file2.txt
-	*	1711032245	0
-	"	2	2
-	^	2	3
-	.	2	2
+	*	1711032404	0
+	"	4	0
+	^	4	0
+	.	3	9
 	+	1	5
 	+	2	2
+	+	3	9
